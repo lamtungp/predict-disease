@@ -1,0 +1,38 @@
+
+R1	Nhiễm trùng đường hô hấp cấp tính	
+-    Ho khan: 1
+-    Nghẹt mũi: 1
+-    Sổ mũi: 1
+-    Sốt: 1
+-    Khó thở: 2
+-    Da tím do thiếu oxy: 3
+R2	Hen suyễn	
+-    Thở khò khè: 1
+-    Ho khan: 2
+-    Khó thở: 3
+-    Tức ngực: 3
+R3	Viêm phế quản
+-    Ho có đờm: 1
+-    Sốt: 1
+-    Thở khò khè: 1
+-    Viêm họng : 1
+-    Khó thở: 2
+-    Tức ngực: 2
+R4	Viêm phổi	
+-    Ho khan: 1
+-    Sốt: 1
+-    Khó thở: 2
+-    Tức ngực : 2
+R5	Tràn dịch màng phổi	
+-    Ho khan: 1
+-    Ho có đờm: 1
+-    Mệt mỏi: 2
+-    Tức ngực : 2
+-    Phù tay chân: 4
+R6	Lao	
+-    Chán ăn: 1
+-    Mệt mỏi : 1
+-    Sốt: 1
+-    Tức ngực: 2
+-    Ho có đờm : 2
+-    Ho ra máu: 4

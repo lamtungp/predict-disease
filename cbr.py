@@ -67,6 +67,9 @@ def cbr_algorithm(cases):
         result = pd.DataFrame()
         result = result.append(
             case, ignore_index=True)
+        
+        library = library.append(
+            case, ignore_index=True)
 
         # Save 'covariance heat map (biased)' output as file
         sn.heatmap(np.cov(base, bias=True), annot=True, fmt='g')
@@ -84,6 +87,7 @@ def cbr_algorithm(cases):
 
     # Save 'library' output as file
     result.to_csv('output/result.csv', index=False)
+    library.to_csv('input/library.csv', index=False)
     return caseResult
 
 

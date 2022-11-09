@@ -55,7 +55,7 @@ def cbr_algorithm(cases):
         # [4] Get solution based on index of found minimum distance, and append it to main library
         # From cases, append library 'similar' solution
         case = np.append(cases.iloc[i, :], library.iloc[min_distance_row, -1])
-        caseResult = case[-1]
+        caseResult = case[-1].strip()
         # Print
         print(
             f'> For case/problem {i}: {cases.iloc[i, :].to_numpy()}, solution is {case[-1]}')
